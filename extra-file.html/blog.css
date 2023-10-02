@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  ;
+}
+body{
+     background: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+ .head h2{
+   text-align: center;
+   padding-top: 60px;
+}
+.blog_article{
+ width: 900px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 120px auto;
+
+}
+.blog_article .step_1{
+    width: 280px;
+    border: 2px solid rgb(192, 185, 185); 
+    box-shadow: 5px 5px 5px 5px #808080;
+   
+
+   
+}
+.step_1 .img_blog{
+    width: 280px;
+    height: 350px;
+   
+   border-radius: 2px;
+   position: relative;
+   top: 0;
+   right: 0;
+   overflow: hidden;
+}
+
+.step_1 .img_blog img{
+    max-width: 100%;
+    height: 100%;
+    transition: .8s; 
+    border-radius: 2px; 
+    overflow: hidden;
+}
+.step_1 .img_blog:hover img{
+transform: scale(1.4);
+}
+.writing_blog{
+    color: rgb(250, 55, 12);
+    background-color: aliceblue;
+    padding: 10px;
+   
+}
+.writing_blog h4{
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.writing_blog h3{
+    margin-top: 10px;
+    color: rgb(86, 2, 2);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.writing_blog p{
+    margin-top: 5px;
+    font-size: small;
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.writing_blog .reed_more{
+   margin-top: 10px;
+   background-color: darkblue;
+   display: inline-block;
+   color: aliceblue;
+   padding: 8px;
+   border-radius: 4px;
+  
+}
+.writing_blog .reed_more a{
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+.writing_blog .reed_more i{
+   font-size: small;
+  margin-left: 5px;
+}
+.writing_blog .reed_more i:hover {
+  color: yellow;
+}
+.writing_blog .reed_more span:hover {
+  color: rgb(255, 0, 102);
+}
+.writing_blog .reed_more:hover {
+ background-color: chartreuse;
+}
