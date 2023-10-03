@@ -1,0 +1,82 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Courier New', Courier, monospace; 
+}
+#header_section{
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(164, 226, 226);
+    margin-bottom: 10px;
+
+}
+ .head h2{
+    margin: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+ }
+ .head h2 span{
+    font-size: 15px;
+    color: rgb(249, 15, 7);
+    text-shadow: 5px 5px 5px 5px rgb(128, 0, 85);
+ }
+header nav{
+    list-style: none;
+      padding: 0px, 15px;
+}
+header nav ul {
+list-style: none;
+
+    
+}
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(82, 76, 78);
+     font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold; 
+}
+header .link{
+    margin: 10px;
+}
+header .link a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+}
+header .link .book{
+   background-color: rgb(14, 243, 243);
+   padding: 6px;
+   font-weight: bold;
+   border: 2px solid rgb(0, 200, 255);
+   border-radius: 5px;
+}
+header .link .book:hover {
+    background-color:transparent;
+    color: rgb(160, 95, 104);
+   
+}
+header .link .start{
+    border: 2px solid rgb(152, 119, 119);
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+header .link .start:hover {
+    background-color: aqua;
+
+}
